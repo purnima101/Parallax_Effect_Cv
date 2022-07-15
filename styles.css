@@ -1,4 +1,111 @@
-#top
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+    scroll-behavior: smooth;
+
+}
+a:link { text-decoration: none; }
+
+.blocks-1
 {
-    background-color: aqua;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("back3.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    background-blend-mode:color-burn;
+    position: relative; 
+
+}
+
+#pic
+{
+    border-radius: 85px;
+}
+
+#name
+{
+    font-size: 70px;
+
+}
+
+.sec
+{
+    background-color: black;
+   
+    border-radius: 85px;
+    width: fit-content; 
+  /* To adjust the height as well */ 
+    height: fit-content;
+}
+#skills, #skills, #about, #edu, #exp, #proj , #conc
+{
+    width: fit-content; 
+  /* To adjust the height as well */ 
+    height: fit-content;
+}
+
+.item
+{
+    font-size: 40px;
+    color: white;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.levels
+{
+    padding:120px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #76BA99;
+    /* background-image: url("coffee.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+}
+
+#block-13
+{
+    
+    padding: 30px;
+    margin: 50px;
+    justify-content: space-around;
+}
+.contact
+{
+    margin:70px;
+    height: 5%;
+    width: 5%;
+}
+
+#nav
+{ 
+    display: flex;
+    padding: 30px;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+#block-2
+{
+    background-image: url("hello.jpg");
+}
+
+#block-4
+{
+    background-image: url("hello2.png");
+}
+
+#block-6
+{
+    background-image: url("hello3.png");
+}
+#block-8
+{
+    background-image: url("hello4 .jpg");
 }
