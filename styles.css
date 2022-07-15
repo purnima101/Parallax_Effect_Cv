@@ -91,21 +91,44 @@ a:link { text-decoration: none; }
     justify-content: space-between;
 }
 
-#block-2
+#parallax
 {
-    background-image: url("hello.jpg");
+    background: url("hello.jpg") repeat fixed 100%;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
-#block-4
+#parallax-1
 {
-    background-image: url("hello2.png");
+    background: url("hello2.png") repeat fixed 100%;;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#block-6
+#parallax-2
 {
-    background-image: url("hello3.png");
+    background: url("hello3.png") repeat fixed 100%;;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#block-8
+#parallax-3
 {
-    background-image: url("hello4 .jpg");
+    background: url("hello4 .jpg") repeat fixed 100%;;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-4
+{
+    background: url("hello5.1 (1).jpg") repeat fixed 100%;;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-5
+{
+    background: url("hello6.1 (1).jpg") repeat fixed 100%;;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
