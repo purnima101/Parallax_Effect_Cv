@@ -5,9 +5,16 @@
     padding:0;
     box-sizing:border-box;
     list-style:none;
+    overflow: auto;
     scroll-behavior: smooth;
 
 }
+
+#top, #nav
+{
+    overflow: hidden;
+}
+
 a:link { text-decoration: none; }
 
 .blocks-1
@@ -42,6 +49,7 @@ a:link { text-decoration: none; }
     width: fit-content; 
   /* To adjust the height as well */ 
     height: fit-content;
+    overflow: hidden;
 }
 #skills, #skills, #about, #edu, #exp, #proj , #conc
 {
@@ -55,6 +63,7 @@ a:link { text-decoration: none; }
     font-size: 40px;
     color: white;
     font-family: 'Edu TAS Beginner', cursive;
+    margin:50px;
 }
 
 .levels
@@ -67,6 +76,7 @@ a:link { text-decoration: none; }
     background-repeat: no-repeat;
     background-size: cover;
     height:60vh;
+
 }
 
 #block-13
@@ -131,4 +141,80 @@ a:link { text-decoration: none; }
     background: url("hello6.1 (1).jpg") repeat fixed 100%;;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#name
+{
+    margin-left: 40px;
+}
+
+.sections
+{
+    align-content: center;
+    margin-top:10px;
+    color: black;
+    font-family: 'Rubik Moonrocks', cursive;
+
+}
+
+.levels
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#block-3
+{
+    margin: 40px;
+    padding: 50px;
+    font-size: 20px;
+    font-family:'Pacifico', cursive;;
+}
+
+
+#block-5
+{
+    font-size: large;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+/* .skill-1
+{
+    align-items:center;
+    height:70px;
+    width: 70px;
+    overflow: hidden;
+
+} */
+
+.contact-1
+{
+    margin: 50px;
+}
+
+#block-7
+{
+    padding: 40px;
+    margin:50px;
+
+}
+
+#block-9
+{
+
+    padding: 40px;
+    margin:50px;
+}
+
+#block-11
+{
+
+    padding: 40px;
+    margin:50px;
 }
